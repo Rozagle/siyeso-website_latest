@@ -75,6 +75,10 @@
       "imageUrl2": "/frameEn2.svg",
       "imageUrl3": "/frameEn3.svg",
       "imageUrl4": "/frameEn4.svg"
+    },
+    "RequirementExpertise":{
+      "heading":"Common Problems About ​Digitalization",
+      "subheading":"The more companies grow, the better projects emerge. ​But there are common problems that need to be solved."
     }
     
   }

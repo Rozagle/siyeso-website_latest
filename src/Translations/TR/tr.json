@@ -77,7 +77,12 @@
     "imageUrl2": "/frameTr2.svg",
     "imageUrl3": "/frameTr3.svg",
     "imageUrl4": "/frameTr4.svg"
+  },
+  "RequirementExpertise":{
+    "heading":"Dijitalleşmedeki Ortak Problemler",
+    "subheading":"Şirketler büyüdükçe daha iyi projeler ortaya çıkabiliyor. Ancak çözülmesi gereken ortak sorunlar var."
   }
+  
 
 
   }
