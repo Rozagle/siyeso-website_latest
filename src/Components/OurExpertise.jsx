@@ -4,6 +4,11 @@ import { useTranslation } from 'react-i18next';
 
 import Aboutusreg from '../assets/Aboutusreg.svg';
 import Aboutusblob from '../assets/Aboutusblob.svg';
+import icon1 from '../assets/iconn1.svg'
+import icon2 from '../assets/iconn2.svg'
+import icon3 from '../assets/iconn10.png'
+import icon4 from '../assets/iconn4.svg'
+
 
 
 function OurExpertise() {
@@ -32,26 +37,26 @@ function OurExpertise() {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 group bg-none rounded-3xl  ">
 
-                    <div className="p-10 flex flex-col items-center text-center group bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md">
-                        <span className="p-4 rounded-full bg-red-500 text-white shadow-lg shadow-red-200"></span>
+                    <div className="p-10 flex flex-col items-center text-center group border-2 border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                        <img src={icon1} className="p-4 rounded-xl  border-2 border-black bg-[#ff7d37] text-white shadow-lg shadow-red-200"></img>
                         <p className="text-2xl font-medium text-slate-700 m-3">{t('OurExpertise.firstgridheading')}</p>
                         <p className="mt-2 text-md text-slate-500">{t('OurExpertise.firstgridsubheading')}</p>
                     </div>
 
-                    <div className="p-10 flex flex-col items-center text-center group bg-white  rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md">
-                        <span className="p-4 rounded-full bg-orange-500 text-white shadow-lg shadow-orange-200"></span>
+                    <div className="p-10 flex flex-col items-center text-center group border-2  border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                        <img src={icon2}  className="p-4 rounded-xl border-2 border-black bg-[#F33E33] text-white shadow-lg shadow-orange-200"></img>
                         <p className="text-2xl font-medium text-slate-700 m-3">{t('OurExpertise.secondgridheading')}</p>
                         <p className="mt-2 text-md text-slate-500">{t('OurExpertise.secondgridsubheading')}</p>
                     </div>
 
-                    <div className="p-10 flex flex-col items-center text-center group bg-white  rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md">
-                        <span className="p-4 rounded-full bg-yellow-500 text-white shadow-lg shadow-yellow-200"></span>
+                    <div className="p-10 flex flex-col items-center text-center group border-2  border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                        <img src={icon3}  className="p-4 rounded-xl  border-2 border-black bg-[#05FF00] text-white shadow-lg shadow-yellow-200"></img>
                         <p className="text-2xl font-medium text-slate-700 m-3">{t('OurExpertise.thirdgridhaeding')}</p>
                         <p className="mt-2 text-md text-slate-500">{t('OurExpertise.thirdgridsubhaeding')}</p>
                     </div>
 
-                    <div className="p-10 flex flex-col items-center text-center group bg-white  rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md">
-                        <span className="p-4 rounded-full bg-lime-500 text-white shadow-lg shadow-lime-200"></span>
+                    <div className="p-10 flex flex-col items-center text-center group border-2  border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                        <img src={icon4}  className="p-4 rounded-xl  border-2 border-black  bg-[#0091ff] text-white shadow-lg shadow-lime-200"></img>
                         <p className="text-2xl font-medium text-slate-700 m-3">{t('OurExpertise.forthgridheading')}</p>
                         <p className="mt-2 text-md text-slate-500">{t('OurExpertise.forthgridsubheading')}</p>
                     </div>

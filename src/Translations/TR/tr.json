@@ -80,7 +80,15 @@
   },
   "RequirementExpertise":{
     "heading":"Dijitalleşmedeki Ortak Problemler",
-    "subheading":"Şirketler büyüdükçe daha iyi projeler ortaya çıkabiliyor. Ancak çözülmesi gereken ortak sorunlar var."
+    "subheading":"Şirketler büyüdükçe daha iyi projeler ortaya çıkabiliyor. Ancak çözülmesi gereken ortak sorunlar var.",
+    "headingtxt1":"Hızlıca Değişen İhtiyaçlar",
+    "headingtxt2":"Geliştirme Süreçleri",
+    "headingtxt3":"Uzmanlık Gereksinimi",
+    "headingtxt4":"Benzersiz Gereksinimler",
+    "subheadingtxt1":"Kurumlar, hızla gelişen piyasa ekonomisine paralel olarak sürekli yeni teknolojik uygulamalara ihtiyaç duyuyor.",
+    "subheadingtxt2":"Geliştirme sürecini hızlandırmak için akıllıca organize edilmesi gerekiyor. Organizasyon eksik olduğunda, geliştirme süreci giderek uzuyor.",
+    "subheadingtxt3":"Deneyimli yazılımcı bulmakta zorlanan firmalar yeni fikirlerini hayata geçirme imkanı elde edemiyorlar.",
+    "subheadingtxt4":"İş süreçleri için benzersiz bir ürün arayışında olan şirketler, mevcut sistemlere entegrasyon sırasında uyum sorunlarıyla karşılaşmaktadır."
   }
   
 

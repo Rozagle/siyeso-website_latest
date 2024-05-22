@@ -78,7 +78,16 @@
     },
     "RequirementExpertise":{
       "heading":"Common Problems About ​Digitalization",
-      "subheading":"The more companies grow, the better projects emerge. ​But there are common problems that need to be solved."
+      "subheading":"The more companies grow, the better projects emerge. ​But there are common problems that need to be solved.",
+      "headingtxt1":"Rapidly Changing Needs",
+      "headingtxt2":"Development Processes",
+      "headingtxt3":"Expertise Requirement",
+      "headingtxt4":"Unique Requirements",
+      "subheadingtxt1":"Institutions constantly need new technological applications in parallel with the rapidly developing market economy.",
+      "subheadingtxt2":"Because in order to speed up the development process, it needs to be organized intelligently. When the organization is missing, the development process takes longer.",
+      "subheadingtxt3":"Companies that have difficulty in finding experienced software developers cannot bring their new ideas to life.",
+      "subheadingtxt4":"Companies in search of a unique product for their business processes encounter compliance problems during integration into existing systems."
+
     }
     
   }

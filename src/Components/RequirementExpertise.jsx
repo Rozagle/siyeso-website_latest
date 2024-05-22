@@ -1,6 +1,11 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import icon1 from '../assets/needsicon1.svg'
+import icon2 from '../assets/needsicon2.svg'
+import icon3 from '../assets/needsicon3.svg'
+import icon4 from '../assets/needsicon4.svg'
+
 
 // import Aboutusreg from '../assets/Aboutusreg.svg';
 // import Aboutusblob from '../assets/Aboutusblob.svg';
@@ -23,38 +28,50 @@ function RequirementExpertise() {
                 <img src={Aboutusblob} alt="" className='absolute lg:right-[1100px] md:right-[800px] md:max-w-[80%] md:mt-42 sm:right-[620px]  sm:max-w-[60%] ss:right-[600px] ss:max-w-[50%] xs:right-[400px] xs:max-w-[80%] xxs:right-[282px] xxs:w-[25%] xxs:mt-42 ' style={{ zIndex: -1 }} /> */}
                 <div className='flex space-y-2 flex-col text-center mb-14 '>
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold text-center mt-8 mb-4 capitalize">
-                        {t('RequirementExpertise.heading')}                        </h1>
+                        {t('RequirementExpertise.heading')}
+                    </h1>
                     <span className='text-2xl'>
-                        {t('RequirementExpertise.subheading')}                        </span>
+                        {t('RequirementExpertise.subheading')}
+                    </span>
                 </div>
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-10 ">
 
                     <div className='w-full lg:w-3/4'>
                         <div className='grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1 items-start md:gap-12 gap-8  '>
-                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500  '>
-                                <div>
-                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'>conventient study schedules</h5>
+                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500 hover:bg-slate-50 '>
+                                <div className="p-10 flex flex-col items-center text-center group   rounded-3xl cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                                    <img src={icon1} className="p-4 rounded-xl  border-2 border-black bg-[#6391FF] text-white shadow-lg shadow-red-200"></img>
+                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'> {t('RequirementExpertise.headingtxt1')}</h5>
                                     <p>
-                                    Kurumlar, hızla gelişen piyasa ekonomisine paralel olarak sürekli yeni teknolojik uygulamalara ihtiyaç duyuyor.
+                                    {t('RequirementExpertise.subheadingtxt1')}
                                     </p>
                                 </div>
                             </div>
-                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500  '>
-                                <div>
-                                    <img src="" alt="" />
-                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'>conventient study schedules</h5>
+                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500 hover:bg-slate-50 '>
+                                <div className="p-10 flex flex-col items-center text-center group   rounded-3xl cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                                    <img src={icon2} className="p-4 rounded-xl  border-2 border-black bg-[#6391FF] text-white shadow-lg shadow-red-200"></img>
+                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'>{t('RequirementExpertise.headingtxt2')}</h5>
+                                    <p>
+                                    {t('RequirementExpertise.subheadingtxt2')}
+                                    </p>
                                 </div>
                             </div>
-                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500  '>
-                                <div>
-                                    <img src="" alt="" />
-                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'>conventient study schedules</h5>
+                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500 hover:bg-slate-50 '>
+                                <div className="p-10 flex flex-col items-center text-center group   rounded-3xl cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                                    <img src={icon3} className="p-4 rounded-xl  border-2 border-black bg-[#6391FF] text-white shadow-lg shadow-red-200"></img>
+                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'>{t('RequirementExpertise.headingtxt3')}</h5>
+                                    <p>
+                                    {t('RequirementExpertise.subheadingtxt3')}
+                                    </p>
                                 </div>
                             </div>
-                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500  '>
-                                <div>
-                                    <img src="" alt="" />
-                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'>conventient study schedules</h5>
+                            <div className='bg-[##ffffff66] rounded-lg h-96 shadow-3xl p-8 items-center flex justify-center hover:translate-y-4 transition-all duration-500 hover:bg-slate-50 '>
+                                <div className="p-10 flex flex-col items-center text-center group   rounded-3xl cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
+                                    <img src={icon4} className="p-4 rounded-xl  border-2 border-black bg-[#6391FF] text-white shadow-lg shadow-red-200"></img>
+                                    <h5 className='text-2xl font-semibold text-black px-5 text-center mt-5'>{t('RequirementExpertise.headingtxt4')}</h5>
+                                    <p>
+                                    {t('RequirementExpertise.subheadingtxt4')}
+                                    </p>
                                 </div>
                             </div>
                         </div>

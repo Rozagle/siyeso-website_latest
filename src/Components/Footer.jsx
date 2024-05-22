@@ -82,7 +82,6 @@ function Footer() {
                     <hr className="my-8 border-gray-700" />
                     <div className="flex flex-col md:flex-row justify-between items-center">
                         <p className="text-sm">&copy; 2024 All rights reserved.</p>
-                        <img src="/group-7@2x.png" alt="Logo" className="md:ml-auto h-8" />
                     </div>
                 </div>
             </footer>
