@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import PolicyPrivacy from '../Pages/PolicyPrivacy';
 
 function Contect() {
   const [firstName, setFirstName] = useState('');
@@ -10,6 +12,8 @@ function Contect() {
   const [subscriptionSuccess, setSubscriptionSuccess] = useState(false);
   const { t, i18n } = useTranslation();
   const [currentLanguage] = useState(() => localStorage.getItem('selectedLanguage') || 'tr');
+
+
   useEffect(() => {
     i18n.changeLanguage(currentLanguage);
   }, [currentLanguage, i18n]);
@@ -62,7 +66,7 @@ function Contect() {
     setTimeout(() => {
       setErrorMessage('');
     }, 5000);
-};
+  };
 
 
 
@@ -72,17 +76,29 @@ function Contect() {
       <div id='contact' className=' w-full py-16 text-black bg-[#6391FF] px-4'>
         <div className='max-w-[1240px] max-h-[420px] xxs:max-h-[500px]  mx-auto grid lg:grid-cols-3'>
           <div className='lg:col-span-2'>
-            <h1 className='md:text-5xl sm:text-4xl text-2xl font-bold py-6'> {t('contactus.heading')}</h1>
-            <h2 className='md:text-3xl sm:text-2xl text-xl font-bold py-2'>{t('contactus.subheading')}</h2>
+            <h1 className='md:text-5xl sm:text-4xl text-2xl xxs:text-5xl font-bold py-6 xxs:py-2'> {t('contactus.heading')}</h1>
+            <h2 className='md:text-3xl sm:text-2xl text-xl font-bold py-2 xxs:text-lg xxs:py-0'>{t('contactus.subheading')}</h2>
             <p>{t('contactus.signupdescription')}</p>
           </div>
-          <div className='my-4'>
+          <div className='my-4 md:my-0 md:pr-4'>
             <div className='flex flex-col sm:flex-cols items-center justify-between w-full'>
               <input className='p-3 m-2 flex w-full rounded-md text-black' type="text" placeholder={t('contactus.placeholdername')} value={firstName} onChange={handleFirstNameChange} required />
               <input className='p-3 m-2 flex w-full rounded-md text-black' type="text" placeholder={t('contactus.placeholdercompanyname')} value={comName} onChange={handleComNameChange} required />
-              <input className='p-3  m-2 flex w-full rounded-md text-black' type="email" placeholder={t('contactus.placeholderemail')}value={email} onChange={handleEmailChange} required />
+              <input className='p-3  m-2 flex w-full rounded-md text-black' type="email" placeholder={t('contactus.placeholderemail')} value={email} onChange={handleEmailChange} required />
               <div className="flex flex-col items-start">
-                <p>{t('contactus.policydescription')} <span className=' text-blue-600 text' style={{ textDecoration: 'underline' }}>{t('contactus.policydescriptionspan')}</span>.</p>
+                <div>
+                  <p>
+                    {t('contactus.policydescription')}
+                    <span className='text-blue-600' style={{ textDecoration: 'underline' }}>
+                    <a href="/policyprivacy" >
+                    {t('contactus.policydescriptionspan')}
+                    </a>
+                    </span>.
+                  </p>
+                  {/* <Routes>
+                    <Route path='/policyprivacy' element={<PolicyPrivacy />} />
+                  </Routes> */}
+                </div>
                 {errorMessage && <p className="text-red-600">{errorMessage}</p>}
               </div>
               <div>

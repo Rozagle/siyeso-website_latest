@@ -26,7 +26,7 @@
       "subheading":"Want tips and tricks to optimize your flow?",
       "signupdescription":"Sign up to our newsletter and stay up to date.",
       "policydescription":"We care about the protection of your data. Read our",
-      "policydescriptionspan": "Privacy Policy",
+      "policydescriptionspan": " Privacy Policy",
       "notifymebtn": "Notify me",
       "subscriptionSuccesstxt":"Thank you for subscribing!",
       "subscriptionSuccesstxt2":"Your message was successfully sent.",
@@ -88,6 +88,23 @@
       "subheadingtxt3":"Companies that have difficulty in finding experienced software developers cannot bring their new ideas to life.",
       "subheadingtxt4":"Companies in search of a unique product for their business processes encounter compliance problems during integration into existing systems."
 
+    },
+    "Team":
+    {
+      "heading":"Our Team",
+      "subheading1":"Thanks to our expert team that growing every day,",
+      "subheading2":" we can keep serve \"one-step solutions\".",
+      "title1": "Managing Partner \n General Director",
+      "title2":"Managing Partner",
+      "title3":"Consultant",
+      "title4":"Software Architect",
+      "title5":"Project Manager",
+      "title6":"Consultant",
+      "title7":"Project Manager",
+      "title8":"Software Developer",
+      "title9":"Software Developer",
+      "title10":"Project Manager",
+      "title11":"Software Engineer"
     }
     
   }

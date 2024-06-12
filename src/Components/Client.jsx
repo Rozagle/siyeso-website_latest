@@ -1,7 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import './Client.css';
 import Marquee from 'react-fast-marquee';
 
 import { akbank, BurganBank, ziraatkatilim, ziraatteknoloji, DenizBank, hsbc, intertech, kalkilmayatirimbankasi, odeabank, evrensel } from '../assets/bank-logos/Banks';
@@ -19,12 +18,11 @@ function Client() {
             <div id='reference' className="w-full min-h-[500px] flex flex-col justify-center items-center ">
                 <div className='w-[100%] flex flex-col'>
                     <div className='flex space-y-2 flex-col text-center mb-14 text-black'>
-                        {/* <h2 className='text-lg md:text-lg font-bold text-[#00df9a]'>{t('client.heading1')}</h2> */}
 
-                        <h1 className="md:text-4xl sm:text-3xl xxs:text-3xl text-2xl font-bold text-center mt-8 mb-4 capitalize">
+                        <h1 className="md:text-4xl sm:text-3xl xxs:text-4xl  xs:text-6xl text-2xl font-bold text-center mt-8 mb-4 capitalize">
                             {t('client.heading')}
                         </h1>
-                        <span className='lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl xxs:text-xl  '>
+                        <span className='lg:text-3xl md:text-3xl sm:text-3xl xs:text-2xl xxs:text-lg  '>
                             {t('client.subheading')}
                         </span>
                     </div>

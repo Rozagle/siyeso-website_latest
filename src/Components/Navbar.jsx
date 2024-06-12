@@ -121,23 +121,23 @@ function Navbar() {
                 </div>
 
                 {/* Dropdown Menu for Mobile */}
-                <div className={`lg:hidden fixed mt-6 top-8 right-0 items-center shadow w-58 bg-opacity-50 backdrop-blur-lg flex flex-col rounded-lg transition-all duration-500 ease-in-out transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                <div className={`lg:hidden fixed mt-6 top-8 right-0 items-center shadow w-58 bg-black bg-opacity-5 backdrop-blur-lg flex flex-col rounded-lg transition-all duration-500 ease-in-out transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                     <ul className="menu py-2 text-sm dark:text-gray-900 capitalize" aria-labelledby="dropdownDefaultButton">
                         {navLink.map((item, index) => (
                             <li key={index} className="menu_items p-2 text-center">
-                                <a href={item.path} className="menu-link block space-y-2 hover:bg-gray-100 hover:text-blue-400 text-black py-2 px-14 mb-2 rounded">{t(item.key)}</a>
+                                <a href={item.path} className="menu-link block space-y-2 hover:bg-white hover:text-primary text-black py-2 px-14 mb-2 rounded">{t(item.key)}</a>
                             </li>
                         ))}
                     </ul>
 
                     <button onClick={toggleSelectLanguage} className="btnmenu_items text-sm text-center">
-                        <h1 className=' block py-2 px-16 mb-2 space-y-2 rounded text-black text-center font-modern capitalize group-hover:bg-gray-100 group-hover:text-blue-400 hover:bg-gray-100 hover:text-blue-400'>Selecte language</h1>
+                        <h1 className=' block py-2 px-16 mb-2 space-y-2 rounded text-black text-center font-modern capitalize group-hover:bg-white group-hover:text-primary hover:bg-white hover:text-primary'>Selecte language</h1>
                     </button>
 
                     {selectLanguage && (
                         <ul className="menu text-sm dark:text-gray-900 capitalize text-center" aria-labelledby="dropdownDefaultButton">
-                            <li onClick={() => changeLanguage('en')} className='language_btn2 block space-y-2 hover:bg-gray-100 hover:text-blue-400 text-black py-2 px-20 mb-2 rounded'>English</li>
-                            <li onClick={() => changeLanguage('tr')} className='language_btn2 block space-y-2 hover:bg-gray-100 hover:text-blue-400 text-black py-2 px-20 mb-2 rounded'>Türkçe</li>
+                            <li onClick={() => changeLanguage('en')} className='language_btn2 block space-y-2 hover:bg-white hover:text-primary text-black py-2 px-20 mb-2 rounded'>English</li>
+                            <li onClick={() => changeLanguage('tr')} className='language_btn2 block space-y-2 hover:bg-white hover:text-primary text-black py-2 px-20 mb-2 rounded'>Türkçe</li>
                         </ul>
                     )}
                 </div>
@@ -188,8 +188,8 @@ function Navbar() {
                                 <div className={`languagedp fixed mt-6 top-8 right-48 w-68 lg:right-32 items-center justify-center bg-white flex flex-col rounded-lg transition-all duration-500 ease-in-out transform ${menuOpenDesk ? '' : 'hidden'}`}>
                                     <div className='mt-6 top-8 right-48 w-56 bg-white flex flex-col rounded-lg' id='divlan' style={{ padding: '10px', margin: '10px' }}>
                                         <h1 className='mb-4 text-black text-center font-modern capitalize'>Selected language</h1>
-                                        <button onClick={() => changeLanguage('en')} className='language_btn2 lg:inline space-y-2 hidden bg-gray-100 sm:hidden hover:text-blue-400 text-black font-bold py-2 px-4  mb-2 rounded'>English</button>
-                                        <button onClick={() => changeLanguage('tr')} className='language_btn2 lg:inline space-y-2 hidden bg-gray-100 sm:hidden hover:text-blue-400 text-black font-bold py-2 px-4  mb-2 rounded'>Türkçe</button>
+                                        <button onClick={() => changeLanguage('en')} className='language_btn2 lg:inline space-y-2 hidden bg-gray-100 sm:hidden hover:text-primary text-black font-bold py-2 px-4  mb-2 rounded'>English</button>
+                                        <button onClick={() => changeLanguage('tr')} className='language_btn2 lg:inline space-y-2 hidden bg-gray-100 sm:hidden hover:text-primary text-black font-bold py-2 px-4  mb-2 rounded'>Türkçe</button>
                                     </div>
                                 </div>
                             </div>

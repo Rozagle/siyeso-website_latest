@@ -27,7 +27,7 @@
       "subheading": "Akışınızı optimize etmek için ipuçları ve püf noktaları mı istiyorsunuz?",
       "signupdescription": "Bültenimize kaydolun ve güncel kalın.",
       "policydescription": "Verilerinizin korunmasına önem veriyoruz. Şu",
-      "policydescriptionspan": "Gizlilik Politikası",
+      "policydescriptionspan": " Gizlilik Politikası",
       "notifymebtn": "Bildir",
       "subscriptionSuccesstxt": "Abone olduğunuz için teşekkür ederiz!",
       "subscriptionSuccesstxt2": "Mesajınız başarıyla gönderildi.",
@@ -89,7 +89,25 @@
     "subheadingtxt2":"Geliştirme sürecini hızlandırmak için akıllıca organize edilmesi gerekiyor. Organizasyon eksik olduğunda, geliştirme süreci giderek uzuyor.",
     "subheadingtxt3":"Deneyimli yazılımcı bulmakta zorlanan firmalar yeni fikirlerini hayata geçirme imkanı elde edemiyorlar.",
     "subheadingtxt4":"İş süreçleri için benzersiz bir ürün arayışında olan şirketler, mevcut sistemlere entegrasyon sırasında uyum sorunlarıyla karşılaşmaktadır."
+  },
+  "Team":
+  {
+    "heading":"Takım",
+    "subheading1":"Her geçen gün büyüyen uzman takımımız sayesinde \"tek adımlı çözümler\"",
+    "subheading2":" sunmaya devam edebiliyoruz.",
+    "title1":"Yönetici Ortak Genel Müdür",
+    "title2":"Yönetici Ortak",
+    "title3":"Danışman",
+    "title4":"Yazılım Mimarı",
+    "title5":"Proje Yöneticisi",
+    "title6":"Danışman",
+    "title7":"Proje Yöneticisi",
+    "title8":"Yazılım Geliştirici",
+    "title9":"Yazılım Geliştirici",
+    "title10":"Proje Yöneticisi",
+    "title11":"Yazılım Mühendisi"
   }
+
   
 
 
