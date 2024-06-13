@@ -8,8 +8,11 @@ import Contect from "./Contect";
 import Footer from "./Footer";
 import ChangingNeeds from "./ChangingNeeds";
 import RequirementExpertise from "./RequirementExpertise";
+import ScrollUpBtn from './Components/ScrollUpBtn';
+
 
 export {
+  ScrollUpBtn,
   Navbar,
   Hero,
   About,

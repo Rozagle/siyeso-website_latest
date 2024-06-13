@@ -1,8 +1,9 @@
-import { Navbar, Hero, RequirementExpertise, Client, Contect, Footer, OurExpertise, About, Teams, ChangingNeeds } from './Components/Imports';
+import { Navbar, Hero, RequirementExpertise, Client, Contect, Footer, OurExpertise, About, Teams, ChangingNeeds, ScrollUpBtn } from './Components/Imports';
 function App() {
 
   return (
     <>
+      <ScrollUpBtn />
       <Navbar />
       <Hero />
       <ChangingNeeds />
@@ -13,6 +14,7 @@ function App() {
       <Teams />
       <Contect />
       <Footer />
+
     </>
   );
 }
