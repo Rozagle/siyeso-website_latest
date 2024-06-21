@@ -1,35 +1,44 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useEffect ,useState} from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
 
 const PrivacyPolicy = () => {
+  const { t, i18n } = useTranslation();
+  const [currentLanguage] = useState(() => localStorage.getItem('selectedLanguage') || 'tr');
+  useEffect(() => {
+    i18n.changeLanguage(currentLanguage);
+  }, [currentLanguage, i18n]);
+
   return (
     <div id='policyprivacy' className="bg-gray-100 min-h-screen">
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-4">
-        <Link to="/">Back to Home</Link>
+        <Link to="/">{t('PolicyPrivacy.btn')}</Link>
       </button>
       <div className="max-w-4xl mx-auto p-8">
         <header className="text-center mb-8">
-          <h1 className="text-3xl font-bold">Privacy Policy</h1>
+          <h1 className="text-3xl font-bold">{t('PolicyPrivacy.heading')}</h1>
         </header>
         <div className="bg-white rounded-lg shadow-md p-8">
+          <p className="text-left mb-8">{t('PolicyPrivacy.time')}</p>
+
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Introduction to Privacy Policy</h2>
-            <p>Our privacy policy outlines the ways in which we collect, use, and protect your personal information.</p>
-            <p>We are committed to safeguarding your privacy and ensuring that your personal data is handled responsibly.</p>
-            <p>Understanding our privacy policy will help you make informed decisions about sharing your information with us.</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title1')}</h2>
+            <p className="mb-4">{t('PolicyPrivacy.sub1title1')}</p>
+            <p>{t('PolicyPrivacy.sub1title2')}</p>
+            <p className="mb-4">{t('PolicyPrivacy.sub1title3')}</p>
+            <p className="mb-4">{t('PolicyPrivacy.sub1title4')}</p>
           </section>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Information We Collect</h2>
-            <p>We collect information that you provide directly to us, such as your name, email address, and payment details.</p>
-            <p>Our systems also gather data automatically, including IP addresses, browser type, and usage patterns.</p>
-            <p>We may obtain information about you from third-party sources to enhance our services.</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title2')}</h2>
+            <p >{t('PolicyPrivacy.sub2title1')}</p>
+            <p className="mb-4">{t('PolicyPrivacy.sub2title2')}</p>
           </section>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">How We Use Your Information</h2>
-            <p>Your information helps us provide, maintain, and improve our services.</p>
-            <p>We use your data to communicate with you, including sending updates and promotional offers.</p>
-            <p>Personal data is crucial for ensuring security and preventing fraud.</p>
+          <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title3')}</h2>
+          <p className="mb-4">{t('PolicyPrivacy.sub3title1')}</p>
+          <p className="mb-4">{t('PolicyPrivacy.sub3title2')}</p>
           </section>
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-4">Sharing Your Information</h2>
@@ -57,14 +66,14 @@ const PrivacyPolicy = () => {
           </section>
           <section className="mb-8">
             <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
-            <p>If you have any questions or concerns about our privacy policy, please contact us at <a href="mailto:privacy@ourcompany.com" className="text-blue-500">privacy@ourcompany.com</a>.</p>
+            <p>If you have any questions or concerns about our privacy policy, please contact us at <a href="mailto:privacy@siyeso.com" className="text-blue-500">privacy@siyeso.com</a>.</p>
             <p>Our support team is available to address any issues related to your privacy and data protection.</p>
             <p>We value your feedback and strive to improve our privacy practices based on your input.</p>
           </section>
         </div>
       </div>
       <footer className="bg-gray-200 py-4 text-center">
-        <p>Contact us at <a href="mailto:privacy@ourcompany.com" className="text-blue-500">privacy@ourcompany.com</a> for any inquiries regarding our privacy policy.</p>
+        <p>Contact us at <a href="mailto:privacy@siyeso.com" className="text-blue-500">privacy@siyeso.com</a> for any inquiries regarding our privacy policy.</p>
       </footer>
     </div>
   );

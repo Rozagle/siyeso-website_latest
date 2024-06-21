@@ -105,6 +105,29 @@
       "title9":"Software Developer",
       "title10":"Project Manager",
       "title11":"Software Engineer"
+    },
+    "PolicyPrivacy":
+    {
+      "btn":"Back to Home",
+      "heading":"Policy Privacy",
+      "time":"Last updated: June 01, 2024",
+      "title1":"Introduction to Privacy Policy",
+      "sub1title1":"This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use the Service and tells you about your privacy rights and how the law protects you.",
+      "sub1title2":"We use your personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.",
+      "sub1title3":"We are committed to safeguarding your privacy and ensuring that your personal data is handled responsibly.",
+      "sub1title4":"Understanding our privacy policy will help you make informed decisions about sharing your information with us.",
+      "title2":"Information We Collect",
+      "sub2title1":"While using Our Service, We may ask You to provide us with certain personally identifiable information that can be used to contact or identify you.We collect information that you provide directly to us, such as your name, email address, and specific details.",
+      "sub2title2":"We may obtain information about you from third-party sources to enhance our services.",
+      "title3":"How We Use Your Information",
+      "sub3title1":"User data is critical for ensuring security and preventing fraud. This data can encompass a range of information beyond personal details, including user interactions, preferences, and transaction history. These insights not only help us understand and enhance the functioning of our service but also enable us to personalize user experiences and optimize our offerings. Additionally, they are utilized for purposes such as identifying and mitigating security threats, detecting fraud, and ensuring compliance with legal requirements. Therefore, the accurate collection, utilization, and protection of personal data are vital for ensuring both your privacy and the security of our service.",
+      "sub3title2":"Usage Data may include information such as your device's Internet Protocol address (e.g., IP address), browser type, browser version, the pages of our Service that unique device identifiers, and other diagnostic data.",
+      "title4":"Gizlilik Politikası Hakkında",
+      "sub4title1":"",
+      "sub4title2":"",
+      "sub4title3":"",
+      "sub4title4":""
+
     }
     
   }

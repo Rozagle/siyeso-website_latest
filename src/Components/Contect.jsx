@@ -1,8 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
-import PolicyPrivacy from '../Pages/PolicyPrivacy';
+import { Link } from 'react-router-dom';
 
 function Contect() {
   const [firstName, setFirstName] = useState('');
@@ -90,14 +89,11 @@ function Contect() {
                   <p>
                     {t('contactus.policydescription')}
                     <span className='text-blue-600' style={{ textDecoration: 'underline' }}>
-                    <a href="/policyprivacy" >
+                    <Link to="/privacypolicy" >
                     {t('contactus.policydescriptionspan')}
-                    </a>
+                    </Link>
                     </span>.
                   </p>
-                  {/* <Routes>
-                    <Route path='/policyprivacy' element={<PolicyPrivacy />} />
-                  </Routes> */}
                 </div>
                 {errorMessage && <p className="text-red-600">{errorMessage}</p>}
               </div>

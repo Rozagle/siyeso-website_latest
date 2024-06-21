@@ -8,7 +8,7 @@ import Contect from "./Contect";
 import Footer from "./Footer";
 import ChangingNeeds from "./ChangingNeeds";
 import RequirementExpertise from "./RequirementExpertise";
-import ScrollUpBtn from './Components/ScrollUpBtn';
+import ScrollUpBtn from './ScrollUpBtn';
 
 
 export {

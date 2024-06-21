@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -11,7 +12,7 @@ function Footer() {
     const { t, i18n } = useTranslation();
     const [currentLanguage] = useState(() => localStorage.getItem('selectedLanguage') || 'tr');
     useEffect(() => {
-      i18n.changeLanguage(currentLanguage);
+        i18n.changeLanguage(currentLanguage);
     }, [currentLanguage, i18n]);
 
     const handleEmailChange = (event) => {
@@ -63,8 +64,8 @@ function Footer() {
                         <div>
                             <h3 className="text-lg font-bold mb-4">{t('Footer.heading2')}</h3>
                             <ul>
-                                <li><a href="#" className="text-white hover:text-gray-400" style={{ marginBottom: '10px' }}>{t('Footer.contactus')}</a></li>
-                                <li><a href="#" className="text-white hover:text-gray-400" style={{ marginBottom: '10px' }}>{t('Footer.policy')}</a></li>
+                                <li><a href="#contact" className="text-white hover:text-gray-400" style={{ marginBottom: '10px' }}>{t('Footer.contactus')}</a></li>
+                                <li><Link to="/privacypolicy" className="text-white hover:text-gray-400" style={{ marginBottom: '10px' }}>{t('Footer.policy')}</Link></li>
                                 <li><a href="#" className="text-white hover:text-gray-400">{t('Footer.terms')}</a></li>
                             </ul>
                         </div>

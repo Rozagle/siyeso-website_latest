@@ -106,6 +106,26 @@
     "title9":"Yazılım Geliştirici",
     "title10":"Proje Yöneticisi",
     "title11":"Yazılım Mühendisi"
+  },
+  "PolicyPrivacy":
+  {
+    "btn":"Ana Sayfa ",
+    "heading":"Gizlilik Politikası",
+    "time":"Son Güncelleme Tarihi: 1 Haziran 2024",
+    "title1":"Gizlilik Politikası Hakkında",
+    "sub1title1":"Bu Gizlilik Politikası, Hizmet'i kullandığınızda Bilgilerinizin toplanması, kullanılması ve açıklanması ile ilgili politikalarımızı ve prosedürlerimizi açıklar ve gizlilik haklarınızı ve yasaların size nasıl koruma sağladığını size bildirir.",
+    "sub1title2":"Kişisel verilerinizi Hizmet'i sağlamak ve iyileştirmek için kullanıyoruz. Hizmet'i kullanarak, bu Gizlilik Politikası'na uygun olarak bilgi toplanması ve kullanılmasını kabul edersiniz.",
+    "sub1title3":"Gizliliğinizi korumaya ve kişisel verilerinizin sorumlu bir şekilde işlenmesini sağlamaya kararlıyız.",
+    "sub1title4":"Gizlilik politikamızı anlamak, bilgilerinizi bizimle paylaşma konusunda bilinçli kararlar almanıza yardımcı olacaktır.",
+    "title2":"Topladığımız Bilgiler",
+    "sub2title1": "Hizmetimizi kullanırken, sizi tanımlamak veya iletişim kurmak için kullanılabilecek belirli kişisel bilgilerinizi bize sağlamanızı isteyebiliriz. Adınız, e-posta adresiniz ve özel detaylar gibi, doğrudan bizimle paylaştığınız bilgileri topluyoruz.",
+    "sub2title2":"Hizmetlerimizi geliştirmek amacıyla üçüncü taraf kaynaklardan sizinle ilgili bilgiler alabiliriz.",
+    "title3":"Bilgilerinizi Nasıl Kullanıyoruz",
+    "sub3title1":"Kullanıcı verileri, güvenliği sağlama ve dolandırıcılığı önleme açısından kritiktir. Bu veriler, kişisel bilgilerin yanı sıra kullanıcıların etkileşimleri, tercihleri ve işlem geçmişi gibi bir dizi bilgiyi içerebilir. Bu bilgiler, hizmetimizin işleyişini anlamamıza ve iyileştirmemize yardımcı olurken, kullanıcı deneyimini kişiselleştirmemize ve hizmetlerimizi optimize etmemize olanak tanır. Ayrıca, güvenlik tehditlerini belirleme ve önleme, sahtekarlık tespiti ve yasal gereksinimlere uyum gibi amaçlarla kullanılır. Bu nedenle, kişisel verilerin doğru şekilde toplanması, kullanılması ve korunması, hem sizin gizliliğinizin hem de hizmetimizin güvenliğinin sağlanması açısından hayati öneme sahiptir.",
+    "sub3title2":"Kullanım Verileri, cihazınızın İnternet Protokol adresi (örneğin, IP adresi), tarayıcı türü, tarayıcı sürümü, hizmetimizin sayfaları, benzersiz cihaz tanımlayıcıları ve diğer teşhis verileri gibi bilgileri içerebilir.",
+    "sub3title3":"",
+    "sub3title4":""
+
   }
 
   
