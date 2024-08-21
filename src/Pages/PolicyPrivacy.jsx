@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useEffect ,useState} from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import { useTranslation } from 'react-i18next';
 
 
@@ -36,47 +36,42 @@ const PrivacyPolicy = () => {
             <p className="mb-4">{t('PolicyPrivacy.sub2title2')}</p>
           </section>
           <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title3')}</h2>
-          <p className="mb-4">{t('PolicyPrivacy.sub3title1')}</p>
-          <p className="mb-4">{t('PolicyPrivacy.sub3title2')}</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title3')}</h2>
+            <p className="mb-4">{t('PolicyPrivacy.sub3title1')}</p>
+            <p className="mb-4">{t('PolicyPrivacy.sub3title2')}</p>
           </section>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Sharing Your Information</h2>
-            <p>We do not sell your personal information to third parties.</p>
-            <p>Your data may be shared with trusted partners who assist us in operating our website and conducting our business.</p>
-            <p>We may disclose your information to comply with legal obligations or protect our rights.</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title4')}</h2>
+            <p>{t('PolicyPrivacy.sub4title1')}{t('PolicyPrivacy.sub4title2')}</p>
           </section>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Data Security</h2>
-            <p>We implement robust security measures to protect your personal information from unauthorized access.</p>
-            <p>Regular security audits and encryption technologies ensure the safety of your data.</p>
-            <p>Despite our efforts, no security system is impenetrable, and we encourage you to take precautions as well.</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title5')}</h2>
+            <p>{t('PolicyPrivacy.sub5title1')}{t('PolicyPrivacy.sub5title2')}{t('PolicyPrivacy.sub5title3')}</p>
           </section>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Your Choices and Rights</h2>
-            <p>You have the right to access, correct, or delete your personal information.</p>
-            <p>You can opt-out of receiving promotional communications from us at any time.</p>
-            <p>Our policy outlines the process for exercising your data protection rights.</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title6')}</h2>
+            <p>{t('PolicyPrivacy.sub6title1')}{t('PolicyPrivacy.sub6title2')}{t('PolicyPrivacy.sub6title3')}</p>
           </section>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Changes to This Policy</h2>
-            <p>We may update our privacy policy from time to time to reflect changes in our practices.</p>
-            <p>Significant changes will be communicated to you through our website or via email.</p>
-            <p>Your continued use of our services after policy changes constitutes acceptance of the new terms.</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title7')}</h2>
+            <p>{t('PolicyPrivacy.sub7title1')}</p>
+            <p>{t('PolicyPrivacy.sub7title2')}{t('PolicyPrivacy.sub7title3')}</p>
           </section>
           <section className="mb-8">
-            <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
-            <p>If you have any questions or concerns about our privacy policy, please contact us at <a href="mailto:privacy@siyeso.com" className="text-blue-500">privacy@siyeso.com</a>.</p>
-            <p>Our support team is available to address any issues related to your privacy and data protection.</p>
-            <p>We value your feedback and strive to improve our privacy practices based on your input.</p>
+            <h2 className="text-xl font-semibold mb-4">{t('PolicyPrivacy.title8')}</h2>
+            <p>{t('PolicyPrivacy.sub8title1')}<a href="mailto:privacy@siyeso.com" className="text-blue-500">privacy@siyeso.com</a></p>
+            <p>{t('PolicyPrivacy.sub8title2')}{t('PolicyPrivacy.sub8title3')}</p>
           </section>
         </div>
       </div>
-      <footer className="bg-gray-200 py-4 text-center">
-        <p>Contact us at <a href="mailto:privacy@siyeso.com" className="text-blue-500">privacy@siyeso.com</a> for any inquiries regarding our privacy policy.</p>
+      <footer className="bg-black py-4 text-center">
+        <p className="text-white">{t('PolicyPrivacy.contactUssub')}
+        <a href="mailto:privacy@siyeso.com" className="text-blue-500">privacy@siyeso.com</a>
+        {t('PolicyPrivacy.contactUssub1')}</p>
       </footer>
+
     </div>
   );
 };
 
-export default PrivacyPolicy;
+export default PrivacyPolicy
