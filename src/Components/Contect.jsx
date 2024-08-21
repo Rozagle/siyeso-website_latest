@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 function Contect() {
   const [firstName, setFirstName] = useState('');
@@ -76,8 +77,7 @@ function Contect() {
         <div className='max-w-[1240px] max-h-[420px] xxs:max-h-[500px]  mx-auto grid lg:grid-cols-3'>
           <div className='lg:col-span-2'>
             <h1 className='md:text-5xl sm:text-4xl text-2xl xxs:text-5xl font-bold py-6 xxs:py-2'> {t('contactus.heading')}</h1>
-            <h2 className='md:text-3xl sm:text-2xl text-xl font-bold py-2 xxs:text-lg xxs:py-0'>{t('contactus.subheading')}</h2>
-            <p>{t('contactus.signupdescription')}</p>
+            <h2 className='mt-4 md:text-3xl sm:text-2xl text-xl font-bold py-2 xxs:text-lg xxs:py-0'>{t('contactus.subheading')}</h2>
           </div>
           <div className='my-4 md:my-0 md:pr-4'>
             <div className='flex flex-col sm:flex-cols items-center justify-between w-full'>
@@ -89,9 +89,9 @@ function Contect() {
                   <p>
                     {t('contactus.policydescription')}
                     <span className='text-blue-600' style={{ textDecoration: 'underline' }}>
-                    <Link to="/privacypolicy" >
-                    {t('contactus.policydescriptionspan')}
-                    </Link>
+                      <Link to="/privacypolicy" >
+                        {t('contactus.policydescriptionspan')}
+                      </Link>
                     </span>.
                   </p>
                 </div>
@@ -105,7 +105,7 @@ function Contect() {
         </div>
       </div>
       {subscriptionSuccess && (
-        <div className="fixed top-5 left-10 w-[300px] bg-green-500 bg-opacity-50 text-white p-4 rounded-lg shadow-md transition-opacity duration-500">
+        <div className="fixed top-5 right-10 w-[450px] bg-green-500 bg-opacity-80 text-white p-4 rounded-lg shadow-md transition-opacity duration-500">
           <h2 className='subscriptionSuccesstxt'>{t('contactus.subscriptionSuccesstxt')}</h2>
           <p className='subscriptionSuccesstxt2'>{t('contactus.subscriptionSuccesstxt2')}</p>
         </div>
@@ -116,4 +116,3 @@ function Contect() {
 }
 
 export default Contect;
-

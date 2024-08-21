@@ -38,25 +38,25 @@ function OurExpertise() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-2 group bg-none rounded-3xl  ">
 
                     <div className="p-10 flex flex-col items-center text-center group border-2 border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
-                        <img src={icon1} className="p-4 rounded-xl  border-2 border-black bg-[#ff7d37] text-white shadow-lg shadow-red-200"></img>
+                        <img src={icon1} alt="" className="p-4 rounded-xl  border-2 border-black bg-[#ff7d37] text-white shadow-lg shadow-red-200"></img>
                         <p className="text-2xl md:text-3xl xxs:text-xl xs:text-3xl font-medium text-slate-700 m-3">{t('OurExpertise.firstgridheading')}</p>
                         <p className="mt-2 text-md md:text-xl xxs:text-xl xs:text-2xl text-slate-500">{t('OurExpertise.firstgridsubheading')}</p>
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group border-2  border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
-                        <img src={icon2}  className="p-4 rounded-xl border-2 border-black bg-[#F33E33] text-white shadow-lg shadow-orange-200"></img>
+                        <img src={icon2} alt="" className="p-4 rounded-xl border-2 border-black bg-[#F33E33] text-white shadow-lg shadow-orange-200"></img>
                         <p className="text-2xl md:text-3xl xxs:text-xl xs:text-3xl font-medium text-slate-700 m-3">{t('OurExpertise.secondgridheading')}</p>
                         <p className="mt-2 text-md md:text-xl xxs:text-lg xs:text-2xl text-slate-500">{t('OurExpertise.secondgridsubheading')}</p>
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group border-2  border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
-                        <img src={icon3}  className="p-4 rounded-xl  border-2 border-black bg-[#05FF00] text-white shadow-lg shadow-yellow-200"></img>
+                        <img src={icon3} alt="" className="p-4 rounded-xl  border-2 border-black bg-[#05FF00] text-white shadow-lg shadow-yellow-200"></img>
                         <p className="text-2xl md:text-3xl xxs:text-xl xs:text-3xl font-medium text-slate-700 m-3">{t('OurExpertise.thirdgridhaeding')}</p>
                         <p className="mt-2 text-md md:text-xl xxs:text-lg xs:text-2xl text-slate-500">{t('OurExpertise.thirdgridsubhaeding')}</p>
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group border-2  border-gray-700 bg-white rounded-3xl hover:bg-slate-50 cursor-pointer shadow-md hover:translate-y-1 transition-all duration-500 ">
-                        <img src={icon4}  className="p-4 rounded-xl  border-2 border-black  bg-[#0091ff] text-white shadow-lg shadow-lime-200"></img>
+                        <img src={icon4} alt="" className="p-4 rounded-xl  border-2 border-black  bg-[#0091ff] text-white shadow-lg shadow-lime-200"></img>
                         <p className="text-2xl xxs:text-xl md:text-3xl xs:text-3xl font-medium text-slate-700 m-3">{t('OurExpertise.forthgridheading')}</p>
                         <p className="mt-2 text-md xxs:text-lg md:text-xl xs:text-2xl text-slate-500">{t('OurExpertise.forthgridsubheading')}</p>
                     </div>
