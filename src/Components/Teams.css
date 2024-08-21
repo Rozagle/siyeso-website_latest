@@ -17,7 +17,7 @@
     font-size: 1.25rem;
     position: absolute;
     text-align: center;
-    line-height: 40px; /* Adjust line-height to match height */
+    line-height: 40px; 
     background: #fff;
     border-radius: 20%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10);
@@ -65,7 +65,7 @@
   }
   .carousel .card {
     scroll-snap-align: start;
-    height: 342px;
+    height: 542px;
     list-style: none;
     background: #fff;
     cursor: pointer;
@@ -75,13 +75,13 @@
   }
   .carousel .card .img {
     background: #6391FF;
-    height: 148px;
-    width: 148px;
+    height: 200px;
+    width: 200px;
     border-radius: 15%;
   }
   .card .img img {
-    width: 140px;
-    height: 140px;
+    width: 194px;
+    height: 194px;
     border-radius: 15%;
     object-fit: cover;
     border: 4px solid #fff;

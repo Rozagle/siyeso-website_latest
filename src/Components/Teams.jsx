@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {
   team1, team2, team3, team4, team5, team6,
-  team7, team8, team9, team10, team11
+  team7, team8, team9, team10, team11,team12,team13
 } from '../assets/Teams-photo/Teams.js';
 import './Teams.css';
 
@@ -30,7 +30,10 @@ function Teams() {
     { 'Name': 'Zafer Şekerci', 'title': 'title8', 'img': team8 },
     { 'Name': 'Önder İlze', 'title': 'title9', 'img': team9 },
     { 'Name': 'Dilek Şekerci', 'title': 'title10', 'img': team10 },
-    { 'Name': 'Selim Sertbaş', 'title': 'title11', 'img': team11 },
+    { 'Name': 'Roza Allafi', 'title': 'title11', 'img': team11 },
+    { 'Name': 'Arınç', 'title': 'title12', 'img': team12 },
+    { 'Name': 'Çağan', 'title': 'title13', 'img': team13 },
+
   ];
 
 
